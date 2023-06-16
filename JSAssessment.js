@@ -14,27 +14,27 @@ const nfts = [];
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
-function mintNFT (iname,iuid,iclass,isec) {
-  const nft = {
-    name : iname,
-    uid  : iuid,
-    class: iclass,
-    sec  : isec
-  }
-  nfts.push(nft);
-  console.log("Minted: " + iname);
+function mintNFT(iname, iuid, iclass, isec) {
+    const nft = {
+        name: iname,
+        uid: iuid,
+        class: iclass,
+        sec: isec
+    }
+    nfts.push(nft);
+    console.log("Minted: " + iname);
 }
 
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
-function listNFTs () {
-  for(let i = 0 ; i < nfts.length ; i++){
-    console.log("\nID\t\t: " + (i + 1));
-    console.log("Name\t: " + nfts[i].name);
-    console.log("Uid\t\t: " + nfts[i].uid);
-    console.log("Class\t: " + nfts[i].class);
-    console.log("Sec\t\t: " + nfts[i].sec);
-  }
+function listNFTs() {
+    for (let i = 0; i < nfts.length; i++) {
+        console.log("\nID\t\t: " + (i + 1));
+        console.log("Name\t: " + nfts[i].name);
+        console.log("Uid\t\t: " + nfts[i].uid);
+        console.log("Class\t: " + nfts[i].class);
+        console.log("Sec\t\t: " + nfts[i].sec);
+    }
 }
 
 // print the total number of NFTs we have minted to the console
