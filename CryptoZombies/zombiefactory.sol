@@ -1,10 +1,3 @@
-/*
-Solidity's code is encapsulated in contracts. A contract is the fundamental building block of Ethereum applications — 
-all variables and functions belong to a contract, and this will be the starting point of all your projects.
-
-*/
-
-// SPDX-License-Identifier: MIT
 pragma solidity >=0.5.0 <0.6.0;
 
 import "./ownable.sol";
@@ -21,6 +14,8 @@ contract ZombieFactory is Ownable {
         uint dna;
         uint32 level;
         uint32 readyTime;
+        uint16 winCount;
+        uint16 lossCount;
     }
 
     Zombie[] public zombies;
@@ -30,7 +25,7 @@ contract ZombieFactory is Ownable {
 
     function _createZombie(string memory _name, uint _dna) internal {
         uint id = zombies.push(
-            Zombie(_name, _dna, 1, uint32(now + cooldownTime))
+            Zombie(_name, _dna, 1, uint32(now + cooldownTime), 0, 0)
         ) - 1;
         zombieToOwner[id] = msg.sender;
         ownerZombieCount[msg.sender]++;
