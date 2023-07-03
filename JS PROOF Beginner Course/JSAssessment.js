@@ -29,11 +29,11 @@ function mintNFT(iname, iuid, iclass, isec) {
 // and print their metadata with console.log()
 function listNFTs() {
     for (let i = 0; i < nfts.length; i++) {
-        console.log("\nID\t\t: " + (i + 1));
+        console.log("\nID\t: " + (i + 1));
         console.log("Name\t: " + nfts[i].name);
-        console.log("Uid\t\t: " + nfts[i].uid);
+        console.log("Uid\t: " + nfts[i].uid);
         console.log("Class\t: " + nfts[i].class);
-        console.log("Sec\t\t: " + nfts[i].sec);
+        console.log("Sec\t: " + nfts[i].sec);
     }
 }
 
