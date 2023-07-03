@@ -1,16 +1,27 @@
-### Project: Create a NFT Collection
+# NFT Collection
 
-#### Source code / Solution
+This JavaScript program is an "NFT Collection" program that simulates the working of smart contracts on a blockchain network.
 
-Array to hold the nfts.
+## Description
+
+This is a JavaScript program that simulates the working of a smart contract on a blockchain network by implementing the actions of a smart contract through functions.
+
+* `mintNFT()` function stores metadata inside an array.
+* `listNFT()` function iterates through the array to display the metadata.
+* `getTotalSupply()` function displays the total number of NFTs, which is equal to the length of the array.
+
+## Getting Started
+
+### Executing program
+
+To run this program, you can use any online/offline JavaScript compiler. You can either directly download the file present inside the repository and run it on any JavaScript IDE of your choice, or follow these steps:
+
+* Online: Open any online IDE that supports JavaScript and copy-paste the code provided below.
+* Offline: Open your offline IDE (like VS Code). Create a file with a `.js` extension and copy-paste the code provided below.
 
 ```javascript
-const nfts=[];
-```
+const nfts = [];
 
-mintNFT() function will store the necessary parameters inside nft (object) and then insert it in nfts (array).
-
-```javascript
 function mintNFT(iname, iuid, iclass, isec) {
     const nft = {
         name: iname,
@@ -21,11 +32,7 @@ function mintNFT(iname, iuid, iclass, isec) {
     nfts.push(nft);
     console.log("Minted: " + iname);
 }
-```
 
-listNFT() function will iterate through nfts (array) and print the necessary details on the console.
-
-```javascript
 function listNFTs() {
     for (let i = 0; i < nfts.length; i++) {
         console.log("\nID\t: " + (i + 1));
@@ -35,17 +42,13 @@ function listNFTs() {
         console.log("Sec\t: " + nfts[i].sec);
     }
 }
-```
 
-getTotalSupply() function will give the total length of the nfts (array).
-
-```javascript
 function getTotalSupply() {
     console.log("\nTotal number of NFTS: " + nfts.length);
-}
+
 ```
 
-Calling all the necessary functions.
+* To interact with this program, you have to call its functions. This can be done by copying and pasting the snippet provided below or using it as a reference to call the functions in your own way.
 
 ```javascript
 mintNFT("Aayush Yash", "21BCS10420", "908", "A");
@@ -56,6 +59,11 @@ listNFTs();
 getTotalSupply();
 ```
 
-#### Output
+## Authors
 
-<img src="../Images/JS_output.png" />
+Aayush Yash
+[aayushyaash](aayushyaash@gmail.com "aayushyaash@gmail.com")
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
