@@ -4,7 +4,7 @@ This JavaScript program is an "NFT Collection" program that simulates the workin
 
 ## Description
 
-This is a JavaScript program that simulates the working of a smart contract on a blockchain network by implementing the actions of a smart contract through functions.
+This is a JavaScript program that simulates the working of a smart contract on a blockchain network by implementing the actions of a smart contract through functions. First, we will create a dynamic array through which the functions will interact with the given metadata.
 
 * `mintNFT()` function stores metadata inside an array.
 * `listNFT()` function iterates through the array to display the metadata.
@@ -14,10 +14,9 @@ This is a JavaScript program that simulates the working of a smart contract on a
 
 ### Executing program
 
-To run this program, you can use any online/offline JavaScript compiler. You can either directly download the file present inside the repository and run it on any JavaScript IDE of your choice, or follow these steps:
-
-* Online: Open any online IDE that supports JavaScript and copy-paste the code provided below.
-* Offline: Open your offline IDE (like VS Code). Create a file with a `.js` extension and copy-paste the code provided below.
+* To run this program, you can use any online/offline JavaScript compiler. You can either directly download the file present inside the repository and run it on any JavaScript IDE of your choice, or follow these steps:
+  * Online: Open any online IDE that supports JavaScript and copy-paste the code provided below.
+  * Offline: Open your offline IDE (like VS Code). Create a file with a `.js` extension and copy-paste the code provided below.
 
 ```javascript
 const nfts = [];
@@ -45,6 +44,7 @@ function listNFTs() {
 
 function getTotalSupply() {
     console.log("\nTotal number of NFTS: " + nfts.length);
+}
 
 ```
 
@@ -61,8 +61,7 @@ getTotalSupply();
 
 ## Authors
 
-Aayush Yash
-[aayushyaash](aayushyaash@gmail.com "aayushyaash@gmail.com")
+[Aayush Yash](www.linkedin.com/in/aayush-yash "www.linkedin.com/in/aayush-yash")
 
 ## License
 
