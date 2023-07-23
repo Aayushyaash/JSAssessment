@@ -62,7 +62,7 @@ To run this program, you have to use a Solidity IDE.
 
 ## Authors
 
-[Aayush Yash](www.linkedin.com/in/aayush-yash "www.linkedin.com/in/aayush-yash")
+[Aayush Yash](https://www.linkedin.com/in/aayush-yash "www.linkedin.com/in/aayush-yash")
 
 ## License
 

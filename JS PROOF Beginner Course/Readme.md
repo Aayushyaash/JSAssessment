@@ -61,7 +61,13 @@ getTotalSupply();
 
 ## Authors
 
-[Aayush Yash](www.linkedin.com/in/aayush-yash "www.linkedin.com/in/aayush-yash")
+[Aayush Yash](https://www.linkedin.com/in/aayush-yash "www.linkedin.com/in/aayush-yash")
+
+## Additional
+
+[Link](https://github.com/Aayushyaash/Metacrafters-Summer-Training "https://github.com/Aayushyaash/Metacrafters-Summer-Training") to my Metacrafters summer training repository.
+
+[Link](https://www.loom.com/share/8a4fad3659a248aea78565d2ae35297b?sid=899fc21f-07ea-4f8a-914a-490f2203c9e9 "https://www.loom.com/share/8a4fad3659a248aea78565d2ae35297b?sid=899fc21f-07ea-4f8a-914a-490f2203c9e9") to my video explanation.
 
 ## License
 
