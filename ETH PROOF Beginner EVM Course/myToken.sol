@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+// Project: Create a Token
+
 /*
        REQUIREMENTS
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
@@ -17,8 +19,8 @@ pragma solidity ^0.8.0;
 
 contract MyToken {
     // public variables here
-    string public tokenName = "Original_Token";
-    string public tokenAbbrv = "OT";
+    string public tokenName = "Aayush_Yash";
+    string public tokenAbbrv = "AY";
     uint public totalSupply = 0;
 
     // mapping variable here

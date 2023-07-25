@@ -60,9 +60,17 @@ To run this program, you have to use a Solidity IDE.
 
 ![4](../Images/4.png)
 
+
+
 ## Authors
 
 [Aayush Yash](https://www.linkedin.com/in/aayush-yash "www.linkedin.com/in/aayush-yash")
+
+## Additional
+
+[Link](https://github.com/Aayushyaash/Metacrafters-Summer-Training "https://github.com/Aayushyaash/Metacrafters-Summer-Training") to my Metacrafters summer training repository.
+
+[Link](https://www.loom.com/share/a9f12f1b8ecf479284a0fe6a9faeb8aa?sid=78021028-d10d-4d50-ad4b-52d320606ad1 "https://www.loom.com/share/a9f12f1b8ecf479284a0fe6a9faeb8aa?sid=78021028-d10d-4d50-ad4b-52d320606ad1") to my video explanation.
 
 ## License
 
