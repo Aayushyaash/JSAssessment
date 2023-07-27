@@ -4,7 +4,7 @@ This program is a simple contract that demonstrates how a smart contract works a
 
 ## Description
 
-This is a simple contract written using the Solidity programming language. It demonstrates how an actual contract works and behaves on a blockchain network. First, we will create multiple state variables that will store the basic information of the tokens, such as their name, abbreviation, total supply, and map the balance of the account to their address.
+This is a simple contract written using the Solidity programming language. It demonstrates how an actual contract works and behaves on a blockchain network. First, I have created multiple state variables that will store the basic information of the tokens, such as their name, abbreviation, total supply, and map the balance of the account to their address.
 
 It has two functions:
 
@@ -59,8 +59,6 @@ To run this program, you have to use a Solidity IDE.
 * Once the contract is deployed, you can interact with it by calling its various functions and state variables. Provide the address of the account and the number of tokens you want to mint or burn, and click the function name to execute the function.
 
 ![4](../Images/4.png)
-
-
 
 ## Authors
 

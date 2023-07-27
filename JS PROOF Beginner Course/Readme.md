@@ -4,7 +4,9 @@ This JavaScript program is an "NFT Collection" program that simulates the workin
 
 ## Description
 
-This is a JavaScript program that simulates the working of a smart contract on a blockchain network by implementing the actions of a smart contract through functions. First, we will create a dynamic array through which the functions will interact with the given metadata.
+This is a JavaScript program that simulates the working of a smart contract on a blockchain network by implementing the actions of a smart contract through functions. First, I have created a dynamic array through which the functions will interact with the given metadata.
+
+It has three functions:
 
 * `mintNFT()` function stores metadata inside an array.
 * `listNFT()` function iterates through the array to display the metadata.
