@@ -1,20 +1,22 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract C1 {
-    uint256 public value = 100;
+// Write a smart contract that allows only the admin to access and call all the functions of the contract.
+// Hint: use modifiers to restrict access
 
-    function getValue() public view returns (uint256) {
-        return value;
+contract Challenge_1 {
+    address public owner;
+
+    constructor() {
+        owner = msg.sender;
     }
 
-    function add(uint256 a, uint256 b) public pure returns (uint256) {
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only the owner can call this function.");
+        _;
+    }
+
+    function add(uint a, uint b) public view onlyOwner returns (uint) {
         return a + b;
-    }
-}
-
-contract D1 is C1 {
-    function deposit() public payable {
-        value += msg.value;
     }
 }
