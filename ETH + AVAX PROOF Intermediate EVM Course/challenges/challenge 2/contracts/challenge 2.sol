@@ -5,7 +5,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract Challenge_1 {
+contract Challenge_2 {
     event Add(uint indexed a, uint indexed b, uint indexed result);
     event Subtract(uint indexed a, uint indexed b, uint indexed result);
     event Multiply(uint indexed a, uint indexed b, uint indexed result);
