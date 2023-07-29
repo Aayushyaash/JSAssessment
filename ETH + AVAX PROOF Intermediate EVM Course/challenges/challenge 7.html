@@ -1,0 +1,59 @@
+<!-- <input type="button" value="Click Me" onclick="alert('web3MetaMask')" />
+
+  <script>
+    if (window.ethereum) {
+      console.log("MetaMask is installed!");
+      function web3MetaMask() {
+        window.ethereum
+          .request({ method: "eth_requestAccounts" })
+          .then((accounts) => {
+            console.log(accounts[0]);
+          });
+      }
+    } else {
+      console.log("MetaMask is not installed!");
+    }
+  </script> -->
+
+<!DOCTYPE html>
+<html">
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <button id="connect-button">Connect MetaMask</button>
+    <script>
+      document
+        .getElementById("connect-button")
+        .addEventListener("click", (event) => {
+          let account = null;
+          let button = event.target;
+          if (window.ethereum) {
+            console.log("MetaMask is installed!");
+
+            ethereum
+              .request({ method: "eth_requestAccounts" })
+              .then((accounts) => {
+                account = accounts[0];
+                console.log(account);
+                button.textContent = account;
+
+                ethereum
+                  .request({
+                    method: "eth_getBalance",
+                    params: [account, "latest"],
+                  })
+                  .then((result) => {
+                    console.log(result);
+                    let wei = parseInt(result, 16);
+                    let balance = wei / 10 ** 18;
+                    console.log(balance + " ETH");
+                  });
+              });
+          } else {
+            console.log("MetaMask is not installed!");
+          }
+        });
+    </script>
+  </body>
+</html>
